@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+DerivedData/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# Misc
+*.swp
+*.swo
+*.lock
+*.netrc
+
+# Playground support
+timeline.xctimeline
+playground.xcworkspace
+
+# Other
+*.orig
