@@ -17,7 +17,7 @@ Add this package to your project in `Package.swift`:
 ```swift
 .package(
     url: "https://github.com/freed0m266/BaseKitX.git",
-    from: "1.0.0"
+    from: "1.1.0"
 )
 ```
 
@@ -32,6 +32,10 @@ import BaseKitX
 - `CGFloat` math operators with `Int`
 - `CGFloat.formatted(...)` for numeric precision
 - `[CGFloat].average()` helper
+- `Array` helpers for sorting by key path
+- `Data.jsonString` for printing JSON
+- `Encodable.encode()` and `Decodable.decode(...)`
+- `NumberFormatter.string(from:)` shortcuts
 
 More extensions coming soon...
 
