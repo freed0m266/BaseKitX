@@ -20,3 +20,26 @@ public extension [CGFloat] {
 		return reduce(0, +) / CGFloat(count)
 	}
 }
+
+extension CGFloat {
+	public func formatted(maxPrecision: Int? = nil) -> String {
+		let formatter: NumberFormatter
+		
+		if let maxPrecision {
+			let copy = Self.decimalFormatter.copy() as? NumberFormatter
+			copy?.maximumFractionDigits = maxPrecision
+			formatter = copy ?? CGFloat.decimalFormatter
+		} else {
+			formatter = CGFloat.decimalFormatter
+		}
+		
+		return formatter.string(from: self) ?? String(describing: self)
+	}
+	
+	private static let decimalFormatter = {
+		let formatter = NumberFormatter()
+		formatter.locale = .autoupdatingCurrent
+		formatter.numberStyle = .decimal
+		return formatter
+	}()
+}
