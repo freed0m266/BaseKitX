@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52E71D7D72B81FEB671FF210 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76D9A7F7B0F3D9FBBF20FAB /* Date+Extensions.swift */; };
 		5EA21874F88DEAB1AACDE620 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980DEB6EA32CA5A54A0F3C90 /* CGFloat+Extensions.swift */; };
 		67F42A56126AB010BFDDC506 /* BaseKitX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE551A79AE243367805DF093 /* BaseKitX.framework */; };
 		9D2B0BD162A6069E6FD09D49 /* BaseKitXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C98468EF93948544EEB5C /* BaseKitXTests.swift */; };
@@ -61,6 +62,7 @@
 		980DEB6EA32CA5A54A0F3C90 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		C7D7CD8D148F59FD5020E5E4 /* BaseKitXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BaseKitXTests-Info.plist"; sourceTree = "<group>"; };
 		DE551A79AE243367805DF093 /* BaseKitX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseKitX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76D9A7F7B0F3D9FBBF20FAB /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		F45950AF570056E31B0985FA /* Decodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				0AB25BB2CB366A7D3746228D /* Array+Extensions.swift */,
 				980DEB6EA32CA5A54A0F3C90 /* CGFloat+Extensions.swift */,
 				7CB2BBAFE1FDD9B6AD6C503C /* Data+Extensions.swift */,
+				E76D9A7F7B0F3D9FBBF20FAB /* Date+Extensions.swift */,
 				F45950AF570056E31B0985FA /* Decodable+Extensions.swift */,
 				5B96B02625A1BD1DA4823BD9 /* Encodable+Extensions.swift */,
 				3D9EF8C15E051A6D12F6A7E3 /* NumberFormatter+Extensions.swift */,
@@ -267,6 +270,7 @@
 				D5BFEC4DFB5C95C7153FA8A3 /* Array+Extensions.swift in Sources */,
 				5EA21874F88DEAB1AACDE620 /* CGFloat+Extensions.swift in Sources */,
 				C02A41C3B8EE0DA78AB638B5 /* Data+Extensions.swift in Sources */,
+				52E71D7D72B81FEB671FF210 /* Date+Extensions.swift in Sources */,
 				D51DB38DAFD0F78C8E6B194C /* Decodable+Extensions.swift in Sources */,
 				DCA4D73C442AD3C6BA88743D /* Encodable+Extensions.swift in Sources */,
 				A7FDEAA240AC906300348976 /* NumberFormatter+Extensions.swift in Sources */,
