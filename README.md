@@ -17,7 +17,7 @@ Add this package to your project in `Package.swift`:
 ```swift
 .package(
     url: "https://github.com/freed0m266/BaseKitX.git",
-    from: "1.1.0"
+    from: "1.2.0"
 )
 ```
 
@@ -36,6 +36,10 @@ import BaseKitX
 - `Data.jsonString` for printing JSON
 - `Encodable.encode()` and `Decodable.decode(...)`
 - `NumberFormatter.string(from:)` shortcuts
+- `Date` helpers:
+	- `.plus(...)` and `.minus(...)` for adding/subtracting time components
+	- `.startOfDay`, `.isToday`, `.isYesterday`, `.isTomorrow`, `.isFuture`, `.isPast`
+	- `Date.fromComponents(...)` factory method
 
 More extensions coming soon...
 
