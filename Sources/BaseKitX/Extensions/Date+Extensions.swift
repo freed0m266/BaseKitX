@@ -55,6 +55,14 @@ public extension Date {
 }
 
 public extension Date {
+	var startOfYear: Date {
+		Calendar.current.date(from: Calendar.current.dateComponents([.year], from: self)) ?? self
+	}
+	
+	var startOfMonth: Date {
+		Calendar.current.date(from: Calendar.current.dateComponents([.year, .month], from: self)) ?? self
+	}
+	
 	var startOfDay: Date {
 		Calendar.current.startOfDay(for: self)
 	}
