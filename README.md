@@ -17,7 +17,7 @@ Add this package to your project in `Package.swift`:
 ```swift
 .package(
     url: "https://github.com/freed0m266/BaseKitX.git",
-    from: "1.2.0"
+    from: "1.3.0"
 )
 ```
 
