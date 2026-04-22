@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -75,6 +75,10 @@
 		E76D9A7F7B0F3D9FBBF20FAB /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		F45950AF570056E31B0985FA /* Decodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5BCFFB042F99795400CF433E /* Helpers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Helpers; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1AF2E407F1618F2C442F15FD /* Frameworks */ = {
@@ -169,6 +173,7 @@
 		D599DD52751DE864F221D4DA /* BaseKitX */ = {
 			isa = PBXGroup;
 			children = (
+				5BCFFB042F99795400CF433E /* Helpers */,
 				C12275048FE97A14AFFF5C03 /* Extensions */,
 			);
 			path = BaseKitX;
@@ -197,6 +202,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5BCFFB042F99795400CF433E /* Helpers */,
 			);
 			name = BaseKitX;
 			productName = BaseKitX;
